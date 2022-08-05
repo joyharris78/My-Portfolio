@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    font-family: 'Playfair Display';
+    background-color: #000;
+}
+/* Navigation Bar */
+.nav-bar{
+    
+    height: 55px;
+    width: 60%; 
+    display:flex;
+    align-items:center;
+    padding-top: 15px;
+    padding-left: 8%;
+    float: right;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    letter-spacing: 1px;  
+}
+nav ul li a{
+    color:cornflowerblue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px; 
+}
+/* Home Section */
+
+.home{
+    margin-top: 50px;
+    box-sizing: border-box;
+    display:block;
+    height: 647px;
+    width: 1276px;
+    float: left;
+    color:cornflowerblue;
+
+}
+.home h1{
+    padding-top: 50px;
+    padding-left: 72px;
+    font-size: 200px;
+    text-indent: 1px;
+
+    
+}
+.home h2{
+    font-size: 48px;
+    color: #606060;
+
+    
+}
