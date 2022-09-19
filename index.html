@@ -1,101 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
-    
-    <!--Bootstrap link-->
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="css/style.css">
-    <title>My Portfolio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/8bfadad795.js" crossorigin="anonymous"></script>
 </head>
-
-
 <body>
-   <!--Navbar-->
-   <div class="nav-bar">
-     <nav>
-       <ul>
-         <li><a href="#">Home</a></li>
-         <li><a href="#">About Me</a></li>
-         <li><a href="#">Resume</a></li>
-         <li><a href="#">Projects</a></li>
-         <li><a href="#">Contact</a></li>
-       </ul>
-     </nav>
-   </div>
-   
 
-   <!--Home-->
-  <div class="home">
-    <h1>Joy 
-      <br> 
-      Harris</h1>
-    <h2>Junior Web Developer</h2>
-  </div>
-  
-
-
-   <!--About-->
-  <div>
-    <h1>About Me</h1>
-      <p>I am a junior web developer located in Atlanta, Georgia. I have a passion for UX/UI design and all things related to food!</p>
-  </div>
-  
-  <!--Projects-->
-
-  <div>
-    <h1>Projects</h1>
-    <!--Project 1-->
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-dark">View Project</a>
-        </div>
-      </div>
-    <!--Project 2-->
-
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-dark">View Project</a>
-        </div>
-      </div>
-
-    <!--Project 3-->
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-dark">View Project</a>
-          
-        </div>
-      </div>
-  </div>
-   <!--Contact-->
-  <div>
-    <h1>Contact Me</h1>
-  </div>
+<!--Navigation section-->
  
+    <nav>
+      <div class="special-J">
+        <div id="logo" class="content">
+          <h2>J</h2>
+          <h2>J</h2> 
+        </div>
+        <h3>Joy</h3>
+        <h6>Web Developer</h6>
+      </div>
+      
+      <section id="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="/Users/joyharris/Desktop/documents/Joy Harris_resume.pdf" target="_blank">Resume</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </section>
+        
+        
+        <!--social links-->
 
+      <div id="social-links">
+        <a href="https://www.linkedin.com/in/harrisjoyc/" target="_blank"><i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/joyharris78" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </nav>
+       
+     
+        
+      
+
+  <main>
+   
+    <div id="home" class="header-text">
+      <h1>Joy Harris</h1>
+      <p>Frontend Developer</p>
+    </div>
+    
+           <!--About Section-->
+  
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col1">
+
+            <img src="/Users/joyharris/Downloads/joy.png" width=400" height="550">
+
+            <h4>Hi!, <br> I'm <span>Joy</span>, <br>
+            </h4>
+           
+            <p>
+            I am a Front-End Web Developer located in Atlanta, Georgia. 
+            <br>
+            <br>
+        
+            I am a creative, detail-oriented, problem solver with a passion for 
+           UX/UI design. 
+           <br>
+           <br>
+           I enjoy trying new restaurants, spending countless hours scrolling on Tiktok and binging numerous tv shows on netflix. </p> 
+          </div>
+          <div class="about-col2">
+            <h1 >About</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Projects Section-->
+  
+    <div id="projects">
+      <div class="container">
+        <div class="row">
+          <div class="projects-col1">
+            <h1>Daily Task List</h1>
+            <img id="image" src="/Users/joyharris/Desktop/todomockup.png" width="550" height="350">
+
+            <form action="https://joyharris78.github.io/group-7-final-project" target="_blank">
+              <button type="submit" class="button">Live View</button>
+            </form>
+          
+      
+          </div>
+          <div class="projects-col2">
+            <h1>Projects</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--Contact Section-->
+  
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-col1">
+
+            <h1>Let's <span class="typing-demo">talk.</span></h1>
+            <br>
+            <form action="mailto:joyharris78@gmail.com" target="_blank">
+              <button type="submit" class="button">Email Me!</button>
+            </form>
+
+              <h1>Let's <span>connect.</span></h1>
+              <br>
+              <form action="https://www.linkedin.com/in/harrisjoyc/" target="_blank">
+                <button type="submit" class="button">Follow Me!</button>
+              </form>
+
+              <h1>Let's <span>collaborate.</span></h1>
+              <br>
+              <form action="https://github.com/joyharris78" target="_blank">
+                <button type="submit" class="button">Work with me!</button>
+              </form>
+
+          </div>
+          <div class="contact-col2">
+            <h1>Contact</h1>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
     
 
 
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+
+
+  </main>
+     
+
+
 </body>
 </html>
