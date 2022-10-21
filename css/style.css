@@ -83,7 +83,6 @@ main {
       );
     }
   }
-/* End of special J */
 
 .special-J{
     display:flex;
@@ -104,6 +103,10 @@ main {
     font-size: 16px;
     color:black;
 }
+
+/* End of special J */
+
+/* navigation bar */ 
 
 #nav-links{
  
@@ -324,9 +327,27 @@ flex-direction: column;
 
 }
 
+nav .fas{
+    display:none;
+}  
 
 
+/* css for small screens */
+
+@media only screen and (max-width: 700px){
+
+nav .fas{
+    display:block;
+}    
+.special-J{
+    display: block;
+}
 
 
+#social-links{
+    display:none;
+}
+
+}
 
 
